@@ -16,5 +16,6 @@
     h1{
         color: cyan;
         text-decoration: underline;
+        margin: 1.875rem 0 3.125rem 0;
     }
 </style>
