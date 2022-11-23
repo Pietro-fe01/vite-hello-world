@@ -1,17 +1,21 @@
 <script>
-  import PrintTitle from './components/PrintTitle.vue';
+  import AppTitle from './components/AppTitle.vue';
 
   export default {
     components: {
-      PrintTitle
+      AppTitle
     }
   }
 </script>
 
 <template>
-  <div>
-    <PrintTitle/>
-  </div>
+  <header>
+    <AppTitle/>
+  </header>
 </template>
 
-<style scoped></style>
+<style scoped>
+  header {
+    text-align: center;
+  }
+</style>
